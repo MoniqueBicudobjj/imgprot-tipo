@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOW PORTÃO</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* TEXTOS MENORES E BONITOS */
+        .titulo-pagina {
+            font-size: 32px;
+            font-weight: 900;
+            text-align: center;
+            color: #000;
+            margin-top: 30px;
+        }
+
+        .texto-pagina {
+            font-size: 18px;      /* 👈 Aqui você controla o tamanho */
+            font-weight: 700;
+            text-align: center;
+            max-width: 900px;
+            margin: 20px auto;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        .subtitulo {
+            font-size: 22px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 30px;
+            color: #000;
+        }
+
+        .botao-contato {
+            display: block;
+            margin: 30px auto;
+            background: linear-gradient(90deg, #a8e0e2, #5cc1c5);
+            width: 220px;
+            padding: 16px;
+            border-radius: 40px;
+            text-align: center;
+            font-size: 20px;
+            color: #000;
+            font-weight: 800;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img src="https://pibcuritiba.org.br/wp-content/uploads/2021/06/logo.png" class="logo" alt="Logo Flow Portão">
+        </a>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+
+        <nav class="menu" id="menu">
+            <a href="#" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="index.html">Início</a>
+            <a href="programacoes.html">Programações</a>
+            <a href="celulas.html">Células</a>
+            <a href="contatos.html">Contatos</a>
+            <a href="lideresc.html">Líderes de Células</a>
+            <a href="lideresm.html">Líderes de Ministério</a>
+            <a href="event&reti.html">Eventos e Retiros</a>
+            <a href="voluntariado.html">Seja voluntário</a>
+            <a href="ministerio.html">Nosso Ministério</a>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+
+        <h1 class="titulo-pagina">DISCIPULADO</h1>
+
+        <img src="https://pibcuritiba.org.br/wp-content/uploads/2021/06/logo.png" class="logo-centro">
+
+        <p class="texto-pagina">
+            ENTENDEMOS AS PALAVRAS DE JESUS: “IDE E FAZEI DISCÍPULOS” (MATEUS 28.19), COMO UM DEVER NOSSO.
+            É POR ESTE MOTIVO QUE TEMOS A CLASSE DE DISCIPULADO, UM MOMENTO QUE PARAMOS PARA ANALISAR
+            OS PRINCÍPIOS BÁSICOS DA VIDA DO CRISTÃO À LUZ DA BÍBLIA.
+        </p>
+
+        <p class="texto-pagina">
+            TAMBÉM É FORNECIDO SUPORTE PARA ESTES PRIMEIROS MOMENTOS DA CAMINHADA CRISTÃ.
+        </p>
+
+        <h2 class="subtitulo">QUER CONHECER MAIS JESUS?</h2>
+
+        <p class="subtitulo" style="font-size: 20px;">FALE COM A GENTE</p>
+
+       <a href="contatos.html" class="contact-btn">CONTATOS</a>
+
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/oneflowcampusportao" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" class="social-icon">
+            </a>
+
+            <a href="https://youtube.com/channel/UCKQtj7F3Zv73JttutOlAeLg" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" class="social-icon">
+            </a>
+
+            <a href="https://wa.me/5541995880588" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" class="social-icon">
+            </a>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
 
